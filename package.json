@@ -1,0 +1,11 @@
+{
+  "name": "kensyu-slides",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "marp --html -I slides -o dist && cpx -v \"slides/assets/**/*\" dist/assets && cpx -v robots.txt dist"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.0.4",
+    "cpx": "^1.5.0"
+  }
+}

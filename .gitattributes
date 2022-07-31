@@ -1,0 +1,14 @@
+* text=auto
+*.gif binary
+*.jpg binary
+*.json text eol=lf
+*.md text eol=lf diff=markdown
+*.png binary
+*.txt text eol=lf
+*.webp binary
+*.yml text eol=lf
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitkeep export-ignore
+LICENSE text eol=lf
