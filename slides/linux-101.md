@@ -693,7 +693,7 @@ tomcatのログからエラーメッセージを抽出する
    ```
 2. /var/log/tomcat9配下のファイルにエラーが出力されていないか確認
    ```bash
-   sudo find /var/log/tomcat9 | xargs grep -Hni error
+   sudo find -type f /var/log/tomcat9 | xargs grep -Hni error
    ```
 3. 出力されているエラー内容から原因を特定する
 
