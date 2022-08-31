@@ -421,7 +421,7 @@ Tomcatへのアプリケーションの配置
 
 5. Tomcatを再起動
    ```bash
-   sudo systemctl restart tomcat
+   sudo systemctl restart tomcat9
    ```
 
 6. 研修環境のブラウザで http://127.0.0.1:8080/example/Top にアクセスして画面が表示されることを確認
