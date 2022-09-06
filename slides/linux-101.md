@@ -364,7 +364,7 @@ man ls      # lsコマンドのmanを表示
 # 特権でのコマンドの実行 (sudo)
 
 ログインユーザとは別の権限レベル（一般的にはroot）でコマンドを実行する
-sudoで実行したコマンドは`/var/log/authlog`に記録される
+sudoで実行したコマンドは`/var/log/auth.log`に記録される
 
 ```
 $ ls -a /root
