@@ -134,7 +134,7 @@ Docker DesktopというWindows向けアプリが提供されているが、2021�
 ## WSL環境の設定
 
 ```bash
-# sudoをパスワードなしでできるように変更（パスワードを聞かれるので'sudo'と入力）
+# sudoをパスワードなしでできるように変更（パスワードを聞かれるので'user'と入力）
 sudo sed -Ei 's/^(%sudo\s.*) ALL$/\1 NOPASSWD:ALL/' /etc/sudoers
 
 # OSのタイムゾーンを日本のもの（UTC+9）に変更
