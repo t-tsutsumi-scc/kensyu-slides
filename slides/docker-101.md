@@ -262,7 +262,7 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
 2. 教材のGitリポジトリをclone
    ```bash
    git clone https://github.com/Takumaron/DockerHandsOn.git
-   cd DockerHandsOn
+   cd 'DockerHandsOn/1_はじめてのDockerイメージ'
    ```
 3. [README.md](https://github.com/Takumaron/DockerHandsOn/blob/master/1_%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEDocker%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8/README.md)を見ながら各種コマンドを実行してみる
 
@@ -341,7 +341,7 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
 1. ターミナルアプリで`Ubuntu 22.04 LTS`を開く
 2. 教材のGitリポジトリをcloneしたディレクトリに移動
    ```bash
-   cd ~/DockerHandsOn
+   cd '~/DockerHandsOn/3_はじめてのDocker-compose'
    ```
 3. [README.md](https://github.com/Takumaron/DockerHandsOn/blob/master/3_%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEDocker-compose/README.md)を見ながら各種コマンドを実行してみる
 
