@@ -323,6 +323,17 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
 
 ---
 
+# 【Tips】社内環境固有の注意事項
+
+- プロキシ設定
+  - Dockerデーモン：`/etc/default/docker`
+  - Dockerクライアント：`~/.docker/config.json`
+
+- Docker Hubのレート制限（必ずログインして利用）
+  refs. https://docs.docker.com/docker-hub/download-rate-limit/
+
+---
+
 # 別の教材（教材B）を使用して教材Aに不足している基礎を押さえる
 
 - [【図解】Dockerの全体像を理解する -前編-](https://qiita.com/etaroid/items/b1024c7d200a75b992fc)
