@@ -282,7 +282,7 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
    # Docker公式debianイメージ（タグ：bullseye-slim）をpull
    docker pull debian:bullseye-slim
    
-   # Docker公式alpineイメージ（タグ：bullseye-slim）をpull
+   # Docker公式alpineイメージ（タグ：latest ※暗黙のデフォルトタグ）をpull
    docker pull alpine
    
    # pullしたイメージの一覧を表示（サイズを比較してみよう）
