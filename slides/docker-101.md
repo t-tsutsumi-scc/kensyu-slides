@@ -235,7 +235,7 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
   - Docker Hub
   - GitHub Container Registry (GHCR)
   - Red Hat Quay
-  - Amazon Elastic Container Registry (ECR)、Azure Container Registry (AWS)、Google Container Registry (GCR)
+  - Amazon Elastic Container Registry (ECR)、Azure Container Registry (ACR)、Google Container Registry (GCR)
 
 - オンプレミス（社内利用）
   - GitLab Container Registry
@@ -250,7 +250,7 @@ WSL上でDockerを動かす場合、Docker Desktopにあるような便利なGUI
 - レジストリのホスト名：`ghcr.io`など
   ※省略時はDocker Hub（`registry-1.docker.io`）が使用される
 - リポジトリ名：任意のリポジトリ名で一般的には`ユーザアカウント名/リポジトリ名`のような形式
-  ※Docker Hubの場合
+  ※Docker HubかつDocker公式イメージ（Docker Inc.が維持管理しているイメージ）の場合はユーザアカウント名の部分がない
 - タグ：イメージを識別する任意のタグ名で一般的にはバージョン番号を使用
   ※省略時は暗黙的に`latest`が使用される
 
